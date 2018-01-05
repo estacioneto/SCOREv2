@@ -3,8 +3,10 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+
 import {RotasModule} from './rotas/rotas.module';
 import {PaginasModule} from './paginas/paginas.module';
+import {NavegacaoModule} from './navegacao/navegacao.module';
 
 
 @NgModule({
@@ -14,7 +16,8 @@ import {PaginasModule} from './paginas/paginas.module';
   imports: [
     BrowserModule,
     RotasModule,
-    PaginasModule
+    PaginasModule,
+    NavegacaoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

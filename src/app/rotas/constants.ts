@@ -1,15 +1,16 @@
-import {NotFoundComponent} from '../paginas/not-found/not-found.component';
 import {InicioComponent} from '../paginas/inicio/inicio.component';
+import {PaginaErroComponent} from '../paginas/pagina-erro/pagina-erro.component';
+import {Route} from '@angular/router';
 
-export const APP_ROTAS = [
+export const APP_ROTAS: Route[] = [
   {
     path: '',
     component: InicioComponent
   }, {
-    path: '404',
-    component: NotFoundComponent
+    path: 'erro/:status',
+    component: PaginaErroComponent
   }, {
     path: '**',
-    redirectTo: '/404'
+    redirectTo: '/erro/404'
   }
 ];
