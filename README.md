@@ -1,5 +1,9 @@
 # SCOREv2
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/4abee15008976141f7de/maintainability)](https://codeclimate.com/github/estacioneto/SCOREv2/maintainability)
+[![dependencies Status](https://david-dm.org/estacioneto/ciente/status.svg)](https://david-dm.org/estacioneto/SCOREv2)
+[![devDependencies Status](https://david-dm.org/estacioneto/ciente/dev-status.svg)](https://david-dm.org/estacioneto/SCOREv2?type=dev)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
 ## Development server
